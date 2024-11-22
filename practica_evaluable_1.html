@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <link rel="stylesheet" href="stylePE.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  
+  <!-- Contenido de la página -->
+  <nav>
+    <div class="sidebar">
+    <div class="box">
+      <a href="practica_evaluable_1.html">Inicio</a>
+  </div>
+  <div class="box">
+  <a href="información.html">Informacion</a>
+</div>
+<div class="box">
+<a href="formulario.html">Formulario</a>
+</div>
+</div>
+</nav>
+<h1>Inicio</h1>
+<p>Hola, mi nombre es Alejandro Paz Ramos y esta es la ptráctica evaluable 1 de HLC.</p>
+<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*XFKvzn30CglSpb3o" width="450" height="325"/>
+  <!-- Fin contenido de la página -->
+
+  <script>
+    function showTabById(tabId) {
+      const tabs = document.querySelectorAll('.tab');
+      tabs.forEach(tab => {
+        tab.classList.toggle('active', tab.id === tabId);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.menu button');
+      buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          const tabId = button.id.replace('btn', 'tab');
+          showTabById(tabId);
+        });
+      });
+    });
+  </script>
+</body>
+</html>

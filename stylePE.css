@@ -1,0 +1,118 @@
+.sour-gummy-uniquifier {
+  font-family: "Sour Gummy", serif, cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: white;
+}
+  
+nav {
+  background-color: #4476a8;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  font-family: "Sour Gummy", serif, cursive;
+}
+
+h1 {
+  font-family: "Sour Gummy", serif, cursive;
+}
+
+
+.sidebar {
+ padding-left: 0%;
+}
+
+.box{
+  background-color: #3498db;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  font-family: "Sour Gummy", serif, cursive;
+  font-size: 13px;
+}
+.box{
+  margin-left: 0%;}
+
+.box:hover 
+{
+  cursor: pointer;
+  background-color: #1abc9c;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  font-family: "Sour Gummy", serif, cursive;
+  font-size: 13px;
+}
+.box2{
+  background-color: #3498db;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  font-family: "Sour Gummy", serif, cursive;
+  box-shadow: 04px 8px 5px rgb(0, 0, 0);
+  font-size: 13px;
+}
+.box2:active 
+{
+  box-shadow: none;
+}
+
+.box2:hover 
+{
+  cursor: pointer;
+}
+.box3{
+  background-color: #3498db;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  font-family: "Sour Gummy", serif, cursive;
+  box-shadow: 04px 8px 5px rgb(0, 0, 0);
+  font-size: 13px;
+}
+.box3{
+  margin-left: 40%;}
+
+.box3:active 
+{
+  box-shadow: none;
+}
+
+.box3:hover 
+{
+  cursor: pointer;
+}
+
+thead {
+  background-color: #1abc9c;
+}
+
+tbody {
+  background-color: white;
+}
+
+div, p, nav  {
+  font-family: "Sour Gummy", serif, cursive;
+}
+
+.titulonav {
+  border: 1px
+}
+
+.subrayado {
+  background-color: #3498db;
+}
